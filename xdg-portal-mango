@@ -1,0 +1,23 @@
+#!/bin/bash
+
+set +e
+
+killall xdg-desktop-portal-wlr
+killall xdg-desktop-portal-gtk
+killall xdg-desktop-portal-gnome
+killall xdg-desktop-portal-kde
+killall xdg-desktop-portal-rewrite-launchers 
+killall xdg-document-portal 
+killall xdg-permission-store 
+killall xdg-desktop-portal
+
+sleep 1
+
+/usr/lib/xdg-desktop-portal-wlr &
+/usr/lib/xdg-desktop-portal-gtk &
+/usr/lib/xdg-desktop-portal-gnome &
+/usr/lib/xdg-desktop-portal-kde &
+/usr/lib/xdg-desktop-portal-rewrite-launchers &
+/usr/lib/xdg-document-portal &
+/usr/lib/xdg-permission-store &
+/usr/lib/xdg-desktop-portal &
