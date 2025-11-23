@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# It is recommended that this script be run
+# while niri is not running; otherwise, the niri
+# binary will not be copied.
+
 niri_build="$HOME/pkg_sources/niri"
 
 if [ -e "$niri_build" ]; then
