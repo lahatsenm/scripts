@@ -2,6 +2,8 @@
 
 set +e
 
+# These are all not needed but still, here we go
+
 /usr/lib/xdg-desktop-portal-wlr &
 /usr/lib/xdg-desktop-portal-gtk &
 /usr/lib/xdg-desktop-portal-gnome &
